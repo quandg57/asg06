@@ -7,7 +7,7 @@ package oop.asg06;
  * Time: 18:19
  * To change this template use File | Settings | File Templates.
  */
- abstract public class BinaryExpression extends Expression {
+public class BinaryExpression extends Expression {
     Expression left;
     Expression right;
     public Expression left()
