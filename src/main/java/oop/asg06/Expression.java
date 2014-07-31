@@ -7,8 +7,14 @@ package oop.asg06;
  * Time: 18:12
  * To change this template use File | Settings | File Templates.
  */
-abstract public class Expression {
+public class Expression {
 
-    abstract public String toString();
-    abstract public  int evaluate();
+    public String toString()
+    {
+        return null;
+    }
+    public  int evaluate()
+    {
+        return 0;
+    }
 }
